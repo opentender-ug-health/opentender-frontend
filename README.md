@@ -10,7 +10,7 @@ written in Typescript and SCSS
 
 - run command `npm install` in the root folder of this repository
 
-- prepare the data folder (see https://github.com/opentender-ug/opentender-data)
+- prepare the data folder (see https://github.com/opentender-ug-health/opentender-data)
 
 - copy file 'config.dist.js' to 'config.js' and make the changes to reflect your infrastructure
 
@@ -21,7 +21,7 @@ module.exports = {
 			host: '127.0.0.1',
 			port: 3000
 		},
-		data: { // absolute paths to the data folders (see https://github.com/opentender-ug/opentender-data)
+		data: { // absolute paths to the data folders (see https://github.com/opentender-ug-health/opentender-data)
 			path: '/var/www/opentender/data/shared'
 		},
 		cache: {
