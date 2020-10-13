@@ -69,7 +69,7 @@
 				"name": "Evaluation criteria",
 				"desc": "Evaluation criteria signal the risk of using non-quantitative criteria to assess bidders which are subjective and can easily be manipulated.",
 				"order": 0
-			}
+			},
 			"INTEGRITY_COST_OVERRUN": {
 				"name": "Cost overrun",
 				"desc": "The actual costs of the tender are higher than the originally contracted price",
@@ -93,73 +93,73 @@
 				"name": "Share of available key fields",
 				"desc": "Number of key missing fields is the ratio of fields with missing values in the call for tender and contract award announcement related to a given tender (based on the most recently published versions).",
 				"order": 0
-			}
+			},
 			"TRANSPARENCY_BUYER_NAME_MISSING": {
 				"name": "Buyer's name available",
-				"desc": "Buyer name is not missing in the published notice."
+				"desc": "Buyer name is not missing in the published notice.",
 				"order": 1
 			},
 			"TRANSPARENCY_YEAR_MISSING": {
 				"name": "Year info available",
-				"desc": "Year is not missing in the published notice."
+				"desc": "Year is not missing in the published notice.",
 				"order": 2
 			},
 			"TRANSPARENCY_TITLE_MISSING": {
 				"name": "Contract title available",
-				"desc": "Title is not missing in the published notice."
+				"desc": "Title is not missing in the published notice.",
 				"order": 3
 			},
 			"TRANSPARENCY_BIDDER_NAME_MISSING": {
 				"name": "Bidder's name available",
-				"desc": "Bidder name is not missing in the published notice."
+				"desc": "Bidder name is not missing in the published notice.",
 				"order": 4
 			},
 			"TRANSPARENCY_BIDDER_ID_MISSING": {
 				"name": "Bidder's ID available",
-				"desc": "Bidder ID is not missing in the published notice."
+				"desc": "Bidder ID is not missing in the published notice.",
 				"order": 5
 			},
 			"TRANSPARENCY_CA_TYPE_MISSING": {
 				"notused": true,
 				"name": "Buyer type available",
-				"desc": "Buyer type is not missing in the published notice."
+				"desc": "Buyer type is not missing in the published notice.",
 				"order": 0
 			},
 			"TRANSPARENCY_VALUE_MISSING": {
 				"name": "Contract value available",
-				"desc": "Contract value is not missing in the published notice."
+				"desc": "Contract value is not missing in the published notice.",
 				"order": 6
 			},
 			"TRANSPARENCY_IMP_LOC_MISSING": {
 				"notused": true,
 				"name": "Implementation location available",
-				"desc": "Implementation location is not missing in the published notice."
+				"desc": "Implementation location is not missing in the published notice.",
 				"order": 0
 			},
 			"TRANSPARENCY_PROC_METHOD_MISSING": {
 				"name": "Procedure type available",
-				"desc": "Procedure type is not missing in the published notice."
+				"desc": "Procedure type is not missing in the published notice.",
 				"order": 7
 			},
 			"TRANSPARENCY_BID_NR_MISSING": {
 				"notused": true,
 				"name": "Number of bids available",
-				"desc": "Number of bids is not missing in the published notice."
+				"desc": "Number of bids is not missing in the published notice.",
 				"order": 0
 			},
 			"TRANSPARENCY_AWARD_DATE_MISSING": {
 				"name": "Award date available",
-				"desc": "Award date is not missing in the published notice."
+				"desc": "Award date is not missing in the published notice.",
 				"order": 8
 			},
 			"TRANSPARENCY_BUYER_LOC_MISSING": {
 				"name": "Buyer's location available",
-				"desc": "Buyer location is not missing in the published notice."
+				"desc": "Buyer location is not missing in the published notice.",
 				"order": 9
 			},
 			"TRANSPARENCY_MARKET_MISSING": {
 				"name": "Product/service code available",
-				"desc": "Product code info is not missing in the published notice."
+				"desc": "Product code info is not missing in the published notice.",
 				"order": 10
 			}
 		},
