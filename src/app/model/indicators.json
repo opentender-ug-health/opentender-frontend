@@ -30,13 +30,11 @@
 				"order": 5
 			},
 			"INTEGRITY_NEW_COMPANY": {
-				"notused": true,
 				"name": "New company",
 				"desc": "New company signals the risk of a very young company winning a tender (younger than 1 year at the time of winning).",
 				"order": 0
 			},
 			"INTEGRITY_TAX_HAVEN": {
-				"notused": true,
 				"name": "Tax haven",
 				"desc": "Tax haven signals a risk when the supplier is located in a tax haven country (based on the financial secrecy index).",
 				"order": 0
@@ -89,7 +87,6 @@
 				"desc": "Publication rate is the ratio of advertised public procurement spending over the total public procurement spending of a given contracting authority."
 			},
 			"TRANSPARENCY_NUMBER_OF_KEY_MISSING_FIELDS": {
-				"notused": true,
 				"name": "Share of available key fields",
 				"desc": "Number of key missing fields is the ratio of fields with missing values in the call for tender and contract award announcement related to a given tender (based on the most recently published versions).",
 				"order": 0
