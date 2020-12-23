@@ -6,71 +6,37 @@
 		"subindicators": {
 			"INTEGRITY_SINGLE_BID": {
 				"name": "Single bidder contract",
-				"desc": "Single bid signals a risk when only one bid is submitted in a tender in a competitive market.",
+				"desc": "Share of contracts where more than one bids were received.",
 				"order": 1
 			},
 			"INTEGRITY_CALL_FOR_TENDER_PUBLICATION": {
 				"name": "Call for tenders publication",
-				"desc": "Not publishing calls for tender signals a risk when no call for tenders is published prior to a contract award, decreasing the potential bidder pool.",
+				"desc": "Share of contracts for which the call for tender was published prior to a contract award increasing the potential bidder pool.",
 				"order": 2
 			},
 			"INTEGRITY_PROCEDURE_TYPE": {
 				"name": "Procedure type",
-				"desc": "Non-open procedures signal a risk of using procedures types which are less open for competition and more readily used for directly contracting connected companies (e.g. negotiated without publication).",
+				"desc": "Share of contracts for which open procedures were used which are more open for competition",
 				"order": 3
 			},
 			"INTEGRITY_ADVERTISEMENT_PERIOD": {
 				"name": "Length of advertisement period",
-				"desc": "Advertisement period length reveals the risk of suspiciously tight bidding deadlines or when advertisement period is excessively long.",
+				"desc": "Share of contracts for which the length of time between the call for tender publication and the bid deadline was not significantly different from other contracts' advertisement period",
 				"order": 4
 			},
 			"INTEGRITY_DECISION_PERIOD": {
 				"name": "Length of decision period",
-				"desc": "Length of decision period signals risks when the the decision period length is either suspiciously short or suspiciously long.",
+				"desc": "Share of contracts for which the length of the period from bid deadline to decision on contract award was not significantly different from other contracts' decision period.",
 				"order": 5
-			},
-			"INTEGRITY_NEW_COMPANY": {
-				"name": "New company",
-				"desc": "New company signals the risk of a very young company winning a tender (younger than 1 year at the time of winning).",
-				"order": 0
-			},
-			"INTEGRITY_TAX_HAVEN": {
-				"name": "Tax haven",
-				"desc": "Tax haven signals a risk when the supplier is located in a tax haven country (based on the financial secrecy index).",
-				"order": 0
-			},
-			"INTEGRITY_DESCRIPTION_LENGTH": {
-				"notused": true,
-				"name": "Description length",
-				"desc": "Product description length signals the risk of product description being tailored to one company, when the description is excessively long.",
-				"order": 0
-			},
-			"INTEGRITY_POLITICAL_CONNECTIONS_OF_SUPPLIERS": {
-				"notused": true,
-				"name": "Political connections of suppliers",
-				"desc": "Political connection of the supplier captures the risk of at least one owner or manager holding a political office.",
-				"order": 0
 			},
 			"INTEGRITY_WINNER_CA_SHARE": {
 				"name": "Winner's contract share",
-				"desc": "Winner contract share is the share of contract value won by a given company from a given buyer in a given year.",
+				"desc": "Winner's contract share is the share of contract value won by a given company from a given buyer in a given year. The low value of this indicator signals the risk of the buyer being dependent on one or few companies which may lead to vulnerability for extortion and corruption.",
 				"order": 6
-			},
-			"INTEGRITY_ELIGIBILITY_CRITERIA_LENGTH": {
-				"notused": true,
-				"name": "Eligibility criteria length",
-				"desc": "Eligibility criteria length signals the risk of criteria being tailored to one company with the criteria description being excessively long.",
-				"order": 0
-			},
-			"INTEGRITY_EVALUATION_CRITERIA": {
-				"notused": true,
-				"name": "Evaluation criteria",
-				"desc": "Evaluation criteria signal the risk of using non-quantitative criteria to assess bidders which are subjective and can easily be manipulated.",
-				"order": 0
 			},
 			"INTEGRITY_COST_OVERRUN": {
 				"name": "Cost overrun",
-				"desc": "The actual costs of the tender are higher than the originally contracted price",
+				"desc": "Share of contracts for which the actual costs of the tender are not higher than the originally contracted price",
 				"order": 7
 			}
 		},
@@ -86,77 +52,54 @@
 				"name": "Publication rate",
 				"desc": "Publication rate is the ratio of advertised public procurement spending over the total public procurement spending of a given contracting authority."
 			},
-			"TRANSPARENCY_NUMBER_OF_KEY_MISSING_FIELDS": {
-				"name": "Share of available key fields",
-				"desc": "Number of key missing fields is the ratio of fields with missing values in the call for tender and contract award announcement related to a given tender (based on the most recently published versions).",
-				"order": 0
-			},
 			"TRANSPARENCY_BUYER_NAME_MISSING": {
 				"name": "Buyer's name available",
-				"desc": "Buyer name is not missing in the published notice.",
+				"desc": "Share of contracts for which buyer's name is available in the published notice.",
 				"order": 1
 			},
 			"TRANSPARENCY_YEAR_MISSING": {
 				"name": "Year info available",
-				"desc": "Year is not missing in the published notice.",
+				"desc": "Share of contracts for which year is available in the published notice.",
 				"order": 2
 			},
 			"TRANSPARENCY_TITLE_MISSING": {
 				"name": "Contract title available",
-				"desc": "Title is not missing in the published notice.",
+				"desc": "Share of contracts for which title is available in the published notice.",
 				"order": 3
 			},
 			"TRANSPARENCY_BIDDER_NAME_MISSING": {
 				"name": "Bidder's name available",
-				"desc": "Bidder name is not missing in the published notice.",
+				"desc": "Share of contracts for which bidder's name is available in the published notice.",
 				"order": 4
 			},
 			"TRANSPARENCY_BIDDER_ID_MISSING": {
 				"name": "Bidder's ID available",
-				"desc": "Bidder ID is not missing in the published notice.",
+				"desc": "Share of contracts for which bidder's ID is available in the published notice.",
 				"order": 5
-			},
-			"TRANSPARENCY_CA_TYPE_MISSING": {
-				"notused": true,
-				"name": "Buyer type available",
-				"desc": "Buyer type is not missing in the published notice.",
-				"order": 0
 			},
 			"TRANSPARENCY_VALUE_MISSING": {
 				"name": "Contract value available",
-				"desc": "Contract value is not missing in the published notice.",
+				"desc": "Share of contracts for which contract value is available in the published notice.",
 				"order": 6
-			},
-			"TRANSPARENCY_IMP_LOC_MISSING": {
-				"notused": true,
-				"name": "Implementation location available",
-				"desc": "Implementation location is not missing in the published notice.",
-				"order": 0
 			},
 			"TRANSPARENCY_PROC_METHOD_MISSING": {
 				"name": "Procedure type available",
-				"desc": "Procedure type is not missing in the published notice.",
+				"desc": "Share of contracts for which procedure type is available in the published notice.",
 				"order": 7
-			},
-			"TRANSPARENCY_BID_NR_MISSING": {
-				"notused": true,
-				"name": "Number of bids available",
-				"desc": "Number of bids is not missing in the published notice.",
-				"order": 0
 			},
 			"TRANSPARENCY_AWARD_DATE_MISSING": {
 				"name": "Award date available",
-				"desc": "Award date is not missing in the published notice.",
+				"desc": "Share of contracts for which award date is available in the published notice.",
 				"order": 8
 			},
 			"TRANSPARENCY_BUYER_LOC_MISSING": {
 				"name": "Buyer's location available",
-				"desc": "Buyer location is not missing in the published notice.",
+				"desc": "Share of contracts for which buyer's location is available in the published notice.",
 				"order": 9
 			},
 			"TRANSPARENCY_MARKET_MISSING": {
 				"name": "Product/service code available",
-				"desc": "Product code info is not missing in the published notice.",
+				"desc": "Share of contracts for which product code is available in the published notice.",
 				"order": 10
 			}
 		},

@@ -24,7 +24,6 @@ import {PlatformService} from '../../services/platform.service';
 				<div class="graph-toolbar graph-toolbar-right">
 					<button class="tool-button" [ngClass]="{down:map_level==0}" (click)="setLevel(0)" i18n>Country</button>
 					<button class="tool-button" [ngClass]="{down:map_level==1}" (click)="setLevel(1)" i18n>Counties</button>
-					<button class="tool-button" [ngClass]="{down:map_level==2}" (click)="setLevel(2)" i18n>Parishes</button>
 				</div>
 			</div>
 		</div>
@@ -32,7 +31,7 @@ import {PlatformService} from '../../services/platform.service';
 	`
 })
 export class MapHomeComponent {
-	public map_level: number = 2;
+	public map_level: number = 1;
 	public map_companies: boolean = false;
 	public map_data: IStatsNuts = null;
 	public formatTooltip: (featureProperties: any) => string;
