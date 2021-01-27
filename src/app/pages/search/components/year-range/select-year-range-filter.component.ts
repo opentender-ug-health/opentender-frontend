@@ -45,12 +45,14 @@ export class SelectYearRangeFilterComponent implements OnChanges {
 		if (this.filter && !this.filter.minmax) {
 			if (buckets.length == 1) {
 				this.filter.minmax = [buckets[0].key, buckets[0].key];
-			} else {
+			} else if (buckets.length > 1) {
 				this.filter.minmax = [2100, 2000];
 				buckets.forEach(bucket => {
 					this.filter.minmax[0] = Math.min(this.filter.minmax[0], bucket.key);
 					this.filter.minmax[1] = Math.max(this.filter.minmax[1], bucket.key);
 				});
+			} else  {
+				this.filter.minmax = [this.minYear, this.maxYear]
 			}
 			this.minYear = Math.max(2000, this.filter.minmax[0]);
 			this.maxYear = Math.min(2100, this.filter.minmax[1]);
